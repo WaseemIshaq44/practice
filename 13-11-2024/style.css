@@ -1,0 +1,101 @@
+.container{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #192236;
+    width: 80%;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    margin: 0;
+    padding: 20px 0px;
+
+
+}
+table{
+    width: 90%;
+    height: 50%;
+    border: 1px solid white;
+    margin: auto;
+    border-collapse: collapse;    
+}
+th, td{
+    border: 1px solid rgba(196, 182, 182, 0.637);;
+    width: 25%;
+    height: 50px;
+}
+th{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+td:hover{
+    color: #ffffff;
+    background-color: #000000;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    border-radius: 50px;
+
+}
+.wht{
+    background-color: white;
+    color: black;
+}
+.yllw{
+    background-color: #f5b207;
+    color: white;
+}
+.rd{
+    background-color: #dd2f2f;
+    color: white;
+}
+.aqw{
+    background-color: #27cccc;
+    color:white;
+}
+.txy{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f5b207;
+}
+.txr{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #dd2f2f;
+}
+.txq{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #27cccc;
+}
+button{
+    background-color: #dd2f2f;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: rgb(100, 12, 12);
+}
+.fa-duotone{
+    font-size: 2em;
+    color: #f5b207;
+}
+.fst{
+    text-align: left;
+    width: 200px;
+    padding-left: 5px;
+}
+.fst:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+td:has(button):hover{
+    transform: none;
+    background-color: #ffffff;
+    border-radius: 0px;
+
+}
+
